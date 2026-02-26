@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Universeral Registration and Managment Form</h1>
+    </header>
+    <form action="" >
+        <fieldset >
+            <legend>Personal Details</legend>
+            <label for="name">Full Name</label>
+            <input type="text" id="name"><br><br>
+            <label for="email">Email</label>
+            <input type="email" id="email"><br><br>
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone"><br><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob"><br><br>
+            <label for="gender">Gender</label>
+            <input type="radio" name="gender" value="male" id="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" value="female" id="female">
+            <label for="female">Female</label>  <br><br>
+            <label for="marital">Marital Status</label>
+            <select id="marital">
+                <option value="select">Select</option>
+                <option value="single">Single</option>
+                <option value="married">Married</option>
+                <option value="divorced">Divorced</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <br>
+            <br>
+            <legend>Education Details</legend>
+            <label for="qualification">Highest Qualification</label>
+            <select name="qualification" id="qualification">
+                <option value="select">Select</option>
+                <option value="highschool">High School</option>
+                <option value="bachelor">Bachelor's Degree</option>
+                <option value="master">Master's Degree</option>
+                <option value="phd">PhD</option>
+            </select><br><br>
+            <label for="college">College Name</label>
+            <input type="text" id="college"><br><br>
+            <label for="yop">Year of Passing</label>
+            <input type="number" id="yop"><br><br>
+            <label for="percentage">Percentage</label>
+            <input type="number" id="percentage"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Professional Details</legend>
+            <label for="exp">Experience (Years)</label>
+            <input type="number" id="exp"><br><br>
+            <label for="skill">Skills</label>
+            <input type="checkbox" id="skill"><br><br>
+            <label for="html">HTML</label>
+            <input type="checkbox" id="html"><br><br>
+            <label for="css">CSS</label>
+            <input type="checkbox" id="css"><br><br>
+            <label for="js">JavaScript</label>
+            <input type="checkbox" id="js"><br><br>
+            <label for="current_Company">Current Company</label>
+            <input type="text" id="current_Company"><br><br>
+            <label for="CTC">Expected Salary</label>
+            <input type="number" id="CTC"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Account Setup</legend>
+            <label for="username">Username</label>
+            <input type="text" id="username"><br><br>
+            <label for="password">Password</label>
+            <input type="password" id="password"><br><br>
+            <label for="confirmpassword">Confirm Password</label>
+            <input type="password" id="confirmpassword"><br><br>
+            <label for="question">Security Question</label>
+            <select id="question">
+                <option value="select">Select a Question</option>
+                <option value="pet">What is the name of your favorite pet?</option>
+                <option value="school">What is the name of your first school?</option>
+                <option value="mother">What is your mother's maiden name?</option>
+            </select><br><br>
+            <label for="answer">Answer</label>
+            <input type="text" id="answer"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Address Details</legend>
+            <label for="address">Address Line</label>
+            <textarea id="address"></textarea><br><br>
+            <label for="city">City</label>
+            <input type="text" id="city"><br><br>
+            <label for="state">State</label>
+            <input type="text" id="state"><br><br>
+            <label for="pin">Pin Code</label>
+            <input type="number" id="pin"><br><br>
+            <label for="country">Country</label>
+            <input type="text" id="country"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Emergency Contact</legend>
+            <label for="emergency_name">Name</label>
+            <input type="text" id="emergency_name"><br><br>
+            <label for="relation">Relationship</label>
+            <input type="text" id="relation"><br><br>
+            <label for="emergency_phone">Phone Number</label>
+            <input type="number" id="emergency_phone"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Upload Documents</legend>
+            <label for="resume">Upload Resume</label>
+            <input type="file" id="resume"><br><br>
+            <label for="profile_photo">Upload Profile Photo</label>
+            <input type="file" id="profile_photo"><br><br>
+        </fieldset>
+        <fieldset>
+            <legend>Declaration</legend>
+            <label for="declaration">I hereby declare that the above information  is true and correct</label>
+            <input type="checkbox" id="declaration"><br><br>
+        </fieldset>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <hr>
+    <footer>
+        <p>&copy; 2026 Universal Registration System</p>
+    </footer>
+</body>
+</html>

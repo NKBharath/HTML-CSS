@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #dcdcdc;
+}
+
+header {
+    background-color: #1d2f42;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    width: 85%;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: #cfcfcf;
+    border: 2px solid black;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    margin-bottom: 10px;
+}
+
+.box {
+    border: 2px solid black;
+    padding: 8px;
+    margin-bottom: 8px;
+    background-color: #e6e6e6;
+}
+
+.project {
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #e6e6e6;
+}
+
+.project h3 {
+    margin-bottom: 5px;
+}
+
+.project button {
+    padding: 5px 10px;
+    border: 1px solid black;
+    background-color: #bdbdbd;
+    cursor: pointer;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 2px solid black;
+}
+
+textarea {
+    resize: none;
+    height: 70px;
+}
+
+.primary-btn {
+    background-color: #3f5368;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #3f5368;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}

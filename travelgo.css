@@ -1,0 +1,220 @@
+body{
+    padding: 0%;
+    margin: 0%;
+}
+.header{
+    background-color: rgb(9, 9, 125);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 80px;
+    position: fixed;
+    width: 95%;
+}
+
+.menu{
+    display: flex;
+    gap: 20px;
+    margin-right: 60px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.hero{
+    background-image: url("https://www.hdwallpapers.in/download/landscape_photography_of_green_hills_river_forest_trees_under_cloudy_sky_4k_hd_nature-HD.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.hero h2{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+.hero p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.hero button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(234, 255, 0);
+    color: black;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.destination{
+    padding: 30px;
+}
+.destinations-holder{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.destinations-container{
+    background-color: rgb(238, 237, 237);
+    padding: 20px;
+    padding-bottom: 0px;
+    width: fit-content;
+    border-radius: 10px;
+    box-shadow: black 0px 2px 5px;
+}
+.destinations-container img{
+    width: 270px;
+    height: 200px;
+}
+.tourpackage{
+    background-color: rgb(238, 237, 237);
+    padding: 30px;
+}
+
+.tourpackage-holder{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.package-container{
+    background-color: white;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: black 0px 2px 5px;
+}
+.package-container h2,p,button{
+    margin: 0px;
+    text-align: center;
+}
+
+.package-container p{
+    margin-bottom: 5px;
+}
+.package-container button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(6, 6, 109);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.gallery-holder{
+    padding: 30px;
+}
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+.gallery img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.contact{
+    background-color: rgb(238, 237, 237);
+    padding: 30px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: fit-content;
+    margin: auto;
+    width: 450px;
+}
+.contact form input, .contact form textarea{
+    height: 30px;
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px;
+}
+.contact form textarea{
+    height: 70px;
+}
+.contact form button{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(6, 6, 109);
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.footer{
+    background-color: rgb(9, 9, 125);
+    color: white;
+    text-align: center;
+    padding: 20px;  
+}
+
+@media screen and (min-width:0px) and (max-width:320px) {
+    .menu{
+        display: none;
+    }
+    .header{
+        justify-content: center;
+        margin: 0%;
+        padding: 0%;
+        width: 100%;
+    }
+    .hero h2{
+        font-size: 30px;
+    }
+    .hero p{
+        font-size: 16px;
+    }
+    .destination{
+        padding: 0%;
+    }
+   .destinations-holder{
+    flex-direction: column;
+    padding: 10px;
+
+   }
+   .destination-container img{
+    width: 200px;
+   }
+   .tourpackage{
+    padding: 0%;
+    margin: 0%;
+    
+   }
+   .tourpackage-holder{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    margin: 0%;
+   }
+   
+   .gallery-holder{
+    padding: 10px;
+   }
+    .gallery{
+     grid-template-columns: repeat(1, 1fr);
+     margin: 0%;
+    }
+    .contact form{
+        width: 100%;
+    }
+}
